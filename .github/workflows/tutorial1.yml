@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: step1
       run: echo "Hello from job 1"
-      run: echo "$(date)"
+        echo "$(date)"
 
   job2:
     name: job2
@@ -16,7 +16,7 @@ jobs:
     steps:
     - name: step2
       run: echo "Hello from job 2"
-      run: echo "$(date)"
+        echo "$(date)"
 
   job3:
     name: job3
@@ -24,7 +24,7 @@ jobs:
     steps:
     - name: step 3
       run: echo "Hello from job 3"
-      run: echo "$(date)"
+        echo "$(date)"
 
   job4:
     name: job4
